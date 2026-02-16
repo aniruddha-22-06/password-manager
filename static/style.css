@@ -180,3 +180,25 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
     visibility: hidden;
     display: none !important;
 }
+.top-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.top-buttons a {
+    padding: 8px 16px;
+    background: #00c3ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
